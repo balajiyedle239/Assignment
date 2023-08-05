@@ -1,0 +1,6 @@
+---
+- name: installation docker on ec2-instance
+  host: localhost
+  become: yes
+  roles:
+    - {role: docker_install}
